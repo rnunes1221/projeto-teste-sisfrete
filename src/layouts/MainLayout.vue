@@ -14,7 +14,7 @@
           icon="star"
           flat
           class="font-special"
-          label="Drinks Favoritos"
+          label="Favorite Drinks"
           dense
           @click="redirectFavoriteDrink()"
         >
