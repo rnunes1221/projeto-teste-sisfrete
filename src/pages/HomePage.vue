@@ -9,7 +9,7 @@
 <script>
 import { defineComponent } from 'vue';
 import Tabs from 'src/components/drinks/tabs/Tabs.vue';
-import Alfabeto from 'src/components/drinks/infinite_scroll/Alfabeto.vue';
+import Alfabeto from 'src/components/drinks/alfabeto/Alfabeto.vue';
 export default defineComponent({
   data(){
     return {
