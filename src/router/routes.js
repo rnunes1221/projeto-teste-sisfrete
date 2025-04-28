@@ -3,7 +3,10 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
+      { path: '', component: () => import('pages/HomePage.vue') },
+      { path: 'drinksByCategory', component: () => import('pages/DrinksByCategoryPage.vue') },
+      { path: 'detailsByDrink', component: () => import('src/pages/DetailsByDrinkPage.vue') },
+      { path: 'favoriteDrinks', component: () => import('src/pages/FavoriteDrinksPage.vue') },
     ]
   },
 

@@ -1,0 +1,22 @@
+.text-vine{
+    color: #701c2c
+}
+
+.bg-vine{
+    background-color: #701c2c;
+}
+
+@font-face {
+    font-family: 'font-special';
+    src: url('/src/assets/fonts/Mango Drink.ttf');
+}
+
+.font-special{
+    font-family: 'font-special', sans-serif;
+    font-size: 20px;
+}
+
+.font-special-title{
+    font-family: 'font-special', sans-serif;
+    font-size: 25px;
+}
